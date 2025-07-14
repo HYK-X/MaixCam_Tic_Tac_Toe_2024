@@ -20,7 +20,7 @@ This is a Tic-Tac-Toe playing robot project based on the Sipeed Maix development
 * **图形化用户界面 (GUI):** `EZGUI.py` 是一个轻量级的触摸屏GUI框架，为项目提供了多页面、多模式选择的交互界面，提升了用户体验。
 * **多模式运行 (Multiple Modes):** 支持“选棋放置”、“机器先手”和“人类先手”三种模式，满足调试和对弈的多种需求。
 * **硬件解耦设计 (Decoupled Design):** 核心游戏逻辑 (`api_new.py`) 与硬件控制和视觉识别代码分离，易于维护和扩展。
-* **机械臂通信 (Robotic Arm Communication):** 通过 UART 串口发送精确的物理坐标指令，控制机械臂完成“取棋”和“落子”等动作。
+* **XYZ三轴滑台通信 (Robotic Arm Communication):** 通过 UART 串口发送精确的物理坐标指令，控制机械臂完成“取棋”和“落子”等动作。
 
 ## 📸 效果演示 | Demo
 
